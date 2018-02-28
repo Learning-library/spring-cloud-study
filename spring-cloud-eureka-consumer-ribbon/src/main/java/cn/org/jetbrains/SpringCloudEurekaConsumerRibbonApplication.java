@@ -7,6 +7,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+
+/**
+ * 具有负载均衡的 去消费eureka-client中提供的服务
+ */
 @SpringBootApplication
 @EnableEurekaClient
 public class SpringCloudEurekaConsumerRibbonApplication {
