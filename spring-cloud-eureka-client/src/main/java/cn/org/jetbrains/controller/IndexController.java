@@ -22,7 +22,7 @@ public class IndexController {
         return "spring-cloud-eureka-client ! ! !";
     }
 
-    @GetMapping(value = "/gc")
+    @GetMapping(value = "/dc")
     public String gc() {
         return "service = " + discoveryClient.getServices();
     }
