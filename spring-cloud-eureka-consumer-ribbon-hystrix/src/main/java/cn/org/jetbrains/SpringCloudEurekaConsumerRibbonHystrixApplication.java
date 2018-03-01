@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * 具有负载均衡的 && 具有容错保护的  去消费eureka-client中提供的服务
+ * 具有负载均衡的 && 具有容错保护的  去消费eureka-client中提供的服务.
  */
 
 @SpringBootApplication
