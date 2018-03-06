@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: config-client-refresh-bus-rabbitmq
+  cloud:
+    config:
+      uri: http://localhost:8085/
+      profile: dev
+      label: master
+
+
