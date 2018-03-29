@@ -3,7 +3,7 @@ spring:
     name: config-client-refresh-bus-rabbitmq
   cloud:
     config:
-      uri: http://localhost:8085/
+      uri: https://config-server-git.jetbrains.org.cn/
       profile: dev
       label: master
 
