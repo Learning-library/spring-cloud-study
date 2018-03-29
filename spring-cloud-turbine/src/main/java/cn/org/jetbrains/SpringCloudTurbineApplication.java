@@ -16,6 +16,7 @@ import org.springframework.context.annotation.Configuration;
  * 在生产环境我们的服务是肯定需要做高可用的，
  * 那么对于多实例的情况，我们就需要将这些度量指标数据进行聚合。
  * 下面，在本篇中，我们就来介绍一下另外一个工具：Turbine。
+ * http://localhost:8989/turbine.stream 把这个地址配置到spring-cloud-hystrix-dashboard中。即可
  */
 
 @SpringBootApplication
